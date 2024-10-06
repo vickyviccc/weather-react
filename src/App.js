@@ -1,11 +1,11 @@
-import "./App.css";
+import "./styles.css";
 import Weather from './Weather';
 
 function App() {
   return (
     <div className="App">
-      <h1>Helloss</h1>
-      <Weather city="Vienna" />
+     
+      <Weather/>
     </div>
   );
 }
