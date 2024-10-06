@@ -1,0 +1,193 @@
+html,
+body {
+
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #69B7EB 0%, #FABE58 100%);
+    min-height: 100vh; /* Ensure it covers the whole viewport */
+}
+
+.container {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+            background-color: transparent;
+            /* If the container has any color, change it to transparent */
+        
+}
+
+.weather-react-wrapper {
+    background-color: rgba(0, 0, 0, 0.8);
+    /* Dark background for the wrapper */
+    color: white;
+    /* Text color inside the wrapper */
+    padding: 20px;
+    border-radius: 15px;
+    /* Rounded corners */
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+    /* Subtle shadow */
+    max-width: 600px;
+    width: 100%;
+    margin: 20px;
+    /* Add margin for breathing room */
+}
+
+.weather-react-wrapper h1 {
+    color: tan;
+    /* Change the title color */
+}
+
+.weather-react-wrapper a {
+    color: #ffcc00;
+    /* Change the link color */
+}
+
+.weather-react-wrapper a:hover {
+    text-decoration: underline;
+    /* Add hover effect */
+}
+h1 {
+    color: 0px 4px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    display: block;
+    font-size: 24px;
+    font-weight: bolder;
+    font-style: italic;
+    line-height: 28px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    color: tan;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 19px
+}
+
+
+
+
+.overview {
+    margin-bottom: 20px;
+}
+
+.weather-temperature img {
+    margin-right: 5px;
+
+
+}
+
+.weather-temperature strong {
+    color: tan;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 1;
+
+
+}
+
+.weather-temperature .units {
+    position: relative;
+    font-size: 16px;
+    top: -34px;
+}
+
+.weather-forecast {
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #000;
+    text-align: center;
+
+}
+
+.weather-forecast-date {
+    font-size: 16px;
+    opacity: 0.6;
+}
+
+.weather-forecast-temperature-minimum {
+    opacity: 0.6;
+}
+
+.weather-forecast-temperature {
+    font-size: 13px;
+
+}
+
+/* More specific selector */
+.btn.btn-primary {
+    background-color: #4caf50 !important;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Hover effect */
+.btn.btn-primary:hover {
+    background-color: tan;
+}
+
+small {
+    font-size: 14px;
+    /* Adjust the size as needed */
+    color: white;
+    font-style: italic;
+    /* Change the text color */
+    text-align: center;
+    display: block;
+    /* Makes the <small> element take up the full width */
+    margin-top: 20px;
+    /* Add some space at the top */
+}
+
+small a {
+    color: white;
+    /* Change the color of the link */
+    text-decoration: underline;
+    font-style: italic;
+    /* Remove the underline */
+}
+
+small a:hover {
+    color: tan;
+    /* Change the color on hover */
+    text-decoration: underline;
+    /* Add an underline on hover */
+}
+
+.forecast {
+
+        background-color: transparent;
+        /* This makes sure there's no additional background */
+        padding: 10px 0;
+        /* Adjust padding if needed */
+        margin: 0 auto;
+        /* Centers the forecast */
+    }
+
+.forecast-day {
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.forecast-day img {
+    width: 50px;
+    height: 50px;
+}
